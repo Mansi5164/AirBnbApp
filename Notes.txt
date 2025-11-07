@@ -1,2 +1,19 @@
 what is DTO?
 DTO means data transfer object this help us to create object that are similar to entity but this dto is used to share the data across multiple layers So in MVC we have multiple layers like controller layer service layer etc
+
+        HOTEL
+         |
+         |  (One hotel has many room types)
+         |
+        ROOM
+         |
+         |  (For every room & date we track availability & price)
+         |
+     INVENTORY
+         |
+         |  (User books a room for a specific date)
+         |
+      BOOKING
+         |
+         |
+        USER

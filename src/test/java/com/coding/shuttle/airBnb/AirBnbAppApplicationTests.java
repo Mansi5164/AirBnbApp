@@ -1,4 +1,4 @@
-package com.coding.shuttle.airBnb.App;
+package com.coding.shuttle.airBnb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

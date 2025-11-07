@@ -1,4 +1,4 @@
-package com.coding.shuttle.airBnb.App;
+package com.coding.shuttle.airBnb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
