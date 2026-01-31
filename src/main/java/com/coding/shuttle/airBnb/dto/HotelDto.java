@@ -10,7 +10,7 @@ public class HotelDto {
     private String city;
     private String[] photos;        //it's going to store the url of images it does not store the actual images , actual images are store by the third party at somewhere
     private String[] amenities;
-    private HotelContactInfo hotelContactInfo;
+    private HotelContactInfo contactInfo;
     private Boolean active;
 
 }
