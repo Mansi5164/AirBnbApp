@@ -1,6 +1,7 @@
 package com.coding.shuttle.airBnb.service;
 
 import com.coding.shuttle.airBnb.dto.HotelDto;
+import com.coding.shuttle.airBnb.dto.HotelInfoDto;
 import com.coding.shuttle.airBnb.entity.Hotel;
 
 public interface HotelService {
@@ -9,4 +10,7 @@ public interface HotelService {
     HotelDto updateHotelById(Long id, HotelDto hotelDto);
 
     void deleteHotelById(Long id);
+    void activateHotel(Long hotelId);
+
+    HotelInfoDto getHotelInfoById(Long hotelId);
 }
